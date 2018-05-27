@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97D16F0AABACCA76D49D0949 /* Pods_loopr_ios_sdkTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A503377301ACC9C9F789EAB /* Pods_loopr_ios_sdkTests.framework */; };
 		ACB1660920BB65FC002C7F73 /* loopr_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB165FF20BB65FB002C7F73 /* loopr_ios_sdk.framework */; };
 		ACB1660E20BB65FC002C7F73 /* loopr_ios_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1660D20BB65FC002C7F73 /* loopr_ios_sdkTests.swift */; };
 		ACB1661020BB65FC002C7F73 /* loopr_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB1660220BB65FB002C7F73 /* loopr_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E354534FDEF264E0A9BEE17E /* Pods_loopr_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B1CEB4199D7890CEB14235 /* Pods_loopr_ios_sdk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +25,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		070954AA9D3FFF0672015C16 /* Pods-loopr-ios-sdkTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loopr-ios-sdkTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-loopr-ios-sdkTests/Pods-loopr-ios-sdkTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A503377301ACC9C9F789EAB /* Pods_loopr_ios_sdkTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loopr_ios_sdkTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C60AF805EE14AFCF10B0A20 /* Pods-loopr-ios-sdk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loopr-ios-sdk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-loopr-ios-sdk/Pods-loopr-ios-sdk.debug.xcconfig"; sourceTree = "<group>"; };
+		5D093D10179816448E80114D /* Pods-loopr-ios-sdk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loopr-ios-sdk.release.xcconfig"; path = "Pods/Target Support Files/Pods-loopr-ios-sdk/Pods-loopr-ios-sdk.release.xcconfig"; sourceTree = "<group>"; };
+		79B1CEB4199D7890CEB14235 /* Pods_loopr_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loopr_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB165FF20BB65FB002C7F73 /* loopr_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = loopr_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB1660220BB65FB002C7F73 /* loopr_ios_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loopr_ios_sdk.h; sourceTree = "<group>"; };
 		ACB1660320BB65FB002C7F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ACB1660820BB65FC002C7F73 /* loopr-ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "loopr-ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB1660D20BB65FC002C7F73 /* loopr_ios_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopr_ios_sdkTests.swift; sourceTree = "<group>"; };
 		ACB1660F20BB65FC002C7F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B29AA19E05FB0D5CCEC9683B /* Pods-loopr-ios-sdkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loopr-ios-sdkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-loopr-ios-sdkTests/Pods-loopr-ios-sdkTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E354534FDEF264E0A9BEE17E /* Pods_loopr_ios_sdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +53,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACB1660920BB65FC002C7F73 /* loopr_ios_sdk.framework in Frameworks */,
+				97D16F0AABACCA76D49D0949 /* Pods_loopr_ios_sdkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7875819635BE9BF201A3C49F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79B1CEB4199D7890CEB14235 /* Pods_loopr_ios_sdk.framework */,
+				4A503377301ACC9C9F789EAB /* Pods_loopr_ios_sdkTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8037DB45922EAF06DF53A3DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C60AF805EE14AFCF10B0A20 /* Pods-loopr-ios-sdk.debug.xcconfig */,
+				5D093D10179816448E80114D /* Pods-loopr-ios-sdk.release.xcconfig */,
+				B29AA19E05FB0D5CCEC9683B /* Pods-loopr-ios-sdkTests.debug.xcconfig */,
+				070954AA9D3FFF0672015C16 /* Pods-loopr-ios-sdkTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ACB165F520BB65FB002C7F73 = {
 			isa = PBXGroup;
 			children = (
 				ACB1660120BB65FB002C7F73 /* loopr-ios-sdk */,
 				ACB1660C20BB65FC002C7F73 /* loopr-ios-sdkTests */,
 				ACB1660020BB65FB002C7F73 /* Products */,
+				8037DB45922EAF06DF53A3DD /* Pods */,
+				7875819635BE9BF201A3C49F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACB1661320BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "loopr-ios-sdk" */;
 			buildPhases = (
+				72833AEFB76CB08AAA259A60 /* [CP] Check Pods Manifest.lock */,
 				ACB165FA20BB65FB002C7F73 /* Sources */,
 				ACB165FB20BB65FB002C7F73 /* Frameworks */,
 				ACB165FC20BB65FB002C7F73 /* Headers */,
@@ -122,9 +155,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACB1661620BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "loopr-ios-sdkTests" */;
 			buildPhases = (
+				9397EAC333032505B1986A53 /* [CP] Check Pods Manifest.lock */,
 				ACB1660420BB65FC002C7F73 /* Sources */,
 				ACB1660520BB65FC002C7F73 /* Frameworks */,
 				ACB1660620BB65FC002C7F73 /* Resources */,
+				12E29B0760114A0FC1E75F06 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -190,6 +225,71 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12E29B0760114A0FC1E75F06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-loopr-ios-sdkTests/Pods-loopr-ios-sdkTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BigInt/BigInt.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SipHash/SipHash.framework",
+				"${BUILT_PRODUCTS_DIR}/TrezorCrypto/TrezorCrypto.framework",
+				"${BUILT_PRODUCTS_DIR}/secp256k1_ios/secp256k1_ios.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BigInt.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SipHash.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrezorCrypto.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/secp256k1_ios.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-loopr-ios-sdkTests/Pods-loopr-ios-sdkTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72833AEFB76CB08AAA259A60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loopr-ios-sdk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9397EAC333032505B1986A53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loopr-ios-sdkTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ACB165FA20BB65FB002C7F73 /* Sources */ = {
@@ -333,6 +433,7 @@
 		};
 		ACB1661420BB65FC002C7F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C60AF805EE14AFCF10B0A20 /* Pods-loopr-ios-sdk.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -353,6 +454,7 @@
 		};
 		ACB1661520BB65FC002C7F73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D093D10179816448E80114D /* Pods-loopr-ios-sdk.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -373,6 +475,7 @@
 		};
 		ACB1661720BB65FC002C7F73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B29AA19E05FB0D5CCEC9683B /* Pods-loopr-ios-sdkTests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "loopr-ios-sdkTests/Info.plist";
@@ -386,6 +489,7 @@
 		};
 		ACB1661820BB65FC002C7F73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 070954AA9D3FFF0672015C16 /* Pods-loopr-ios-sdkTests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "loopr-ios-sdkTests/Info.plist";
