@@ -6,6 +6,7 @@ target 'loopr-ios-sdk' do
   use_frameworks!
 
   # Pods for loopr-ios-sdk
+  pod 'Socket.IO-Client-Swift', '~> 13.1.0'
   pod 'Geth'
   pod 'BigInt', '3.0.1'
   pod 'CryptoSwift', '0.8.3'
