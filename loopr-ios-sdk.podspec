@@ -17,15 +17,14 @@ Pod::Spec.new do |s|
 
   s.name         = "loopr-ios-sdk"
   s.version      = "0.0.1"
-  s.summary      = "A short description of loopr-ios-sdk."
+  s.summary      = "summary"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-                   DESC
+  s.description  = "description of loopr-ios-sdk."
 
   s.homepage     = "https://loopring.org"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -121,8 +120,8 @@ Pod::Spec.new do |s|
   s.dependency 'Geth'
   s.dependency 'BigInt', '3.0.1'
   s.dependency 'CryptoSwift', '0.8.3'
-  s.dependency 'secp256k1_ios', git: 'https://github.com/shamatar/secp256k1_ios.git', inhibit_warnings: true
-  s.dependency 'TrezorCrypto', '0.0.4', inhibit_warnings: true
+  s.dependency 'secp256k1_ios', '0.1.3'
+  s.dependency 'TrezorCrypto', '0.0.4'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

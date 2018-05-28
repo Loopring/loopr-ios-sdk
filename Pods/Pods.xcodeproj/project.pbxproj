@@ -98,7 +98,6 @@
 		51D4BFBC18190A1BC4661C6849C49A2A /* ed25519-keccak.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FD19DC44A7EEE1F20AB1B9F33FA1B0E /* ed25519-keccak.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		52308542ADA257EBADE02057B6BDA8AF /* nem.h in Headers */ = {isa = PBXBuildFile; fileRef = 6625A43CF8EE233B012297B5E1D7A258 /* nem.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55158E693576223F57A2272E41591E89 /* bip39_english.h in Headers */ = {isa = PBXBuildFile; fileRef = D0522116F610F91F39D3535C05DFF665 /* bip39_english.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		552E94EC68AE631A1A89F6DC4D58FBA0 /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 461E7B63201174F08C016271ABF691CE /* lax_der_parsing.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		560D813C35A28E6B954484398B96A366 /* SocketAckEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5FA83C34283899BBA099EF88E40927 /* SocketAckEmitter.swift */; };
 		564BB3C26E31AE948AC0177DE9E9457D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B527B43683393E9154CF673129B53370 /* Foundation.framework */; };
 		56A8FF5E332A966D059FD3DF621E4971 /* nist256p1.table in Sources */ = {isa = PBXBuildFile; fileRef = B34ACE6FA87BA8D42BD041C588E969D1 /* nist256p1.table */; };
@@ -118,7 +117,6 @@
 		65D826FD61BD6BD47FECFFA148216844 /* Blowfish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB421340684D3F2DDD6CD661ECB929B /* Blowfish.swift */; };
 		65E3F50D39D6B94EA53E7BDF61A5BAE5 /* field_10x26_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = C6097E38CFC72604E250AAB29C2C20E0 /* field_10x26_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		65F24A9D59FE71507E81FA06E9ABAB06 /* aeskey.c in Sources */ = {isa = PBXBuildFile; fileRef = 0311814E4CDA36F02BB97303BAE1C3F8 /* aeskey.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		67449A8C10697B7AA0A9B3922EAA089C /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 8460FA18B588B248C4DD67607EF99471 /* secp256k1.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		684D5B4E4D45938B3898B8775B37EA13 /* bip32.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D932F22CE8FE373DAC9518480449A83 /* bip32.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69086E943FDA1EF21D24289B1D5C60D2 /* BlockCipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79298BADBE144173CD33AC812D9A36B /* BlockCipher.swift */; };
 		69E4627B6E2338D2F586FA167CDC6E95 /* Int+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62AE56A0B6600F914D9C959B8B03CE /* Int+Extension.swift */; };
@@ -132,6 +130,7 @@
 		70A61EB84311AA494C3F76D34E7328F5 /* field_5x52_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B57013F53596C77CBB823887214DC51 /* field_5x52_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		7296E751C9705B6BCE132E5219D76D67 /* curve25519-donna-scalarmult-base.c in Sources */ = {isa = PBXBuildFile; fileRef = ED60C85D5121E3ADFA4B7C147E940C2C /* curve25519-donna-scalarmult-base.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		74DE9C0DBED7C14ED409BFAA17158E73 /* CryptoSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 257712C6BE2CF8A0741F78C4ACFE1E34 /* CryptoSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		751CB0051C1055892A30E80ADAA575F4 /* secp256k1.c in Sources */ = {isa = PBXBuildFile; fileRef = 8460FA18B588B248C4DD67607EF99471 /* secp256k1.c */; };
 		767F171B15E52505B57E8589B99EF4FD /* aes_modes.c in Sources */ = {isa = PBXBuildFile; fileRef = CC07E7938390DA95D167AA3BE63FEA2D /* aes_modes.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		76B8454116AB1F4D58DE311136FE8838 /* curves.h in Headers */ = {isa = PBXBuildFile; fileRef = 99CA6AF17B9DCF275CB1F177385578C0 /* curves.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		76BC1522E00E2270A16A93FA8F96CB63 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFEAED05BE9A7C590A8959B332CD6098 /* SocketManager.swift */; };
@@ -179,7 +178,6 @@
 		94DA4265D2AF0A4CA879A7F6D5B5A820 /* BlockMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768538B9B443103F43D114D71D56E3EF /* BlockMode.swift */; };
 		952BD8D3BA9711E527BE2E964A146B95 /* ecdsa_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = FFDA58355F74D1E43234FCEB95C4F23D /* ecdsa_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		960978CE23EE23DC0AF7E5954D6CB2A3 /* CFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE270ACBE585785E5B9C7E5493B394A9 /* CFB.swift */; };
-		966FF61422A359610A8C331B8FE9051E /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 923DF4BA841801B6105E8659D405E4E7 /* lax_der_privatekey_parsing.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		97B2B4AFFA86BA7E0F85F53DC0F0B466 /* Collection+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 530E3F048B5F29641639702F6C9300C8 /* Collection+Extension.swift */; };
 		988B244FCA66AC351BC5B740DB07B429 /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D527182C1EEC5C61E88A7E9AB4E87B2 /* SocketIOClient.swift */; };
 		99D19AB35B0F4A0684E93AC4BD720504 /* secp256k1.table in Sources */ = {isa = PBXBuildFile; fileRef = 5A2A48573D7955BCC7DA5F343D208B0D /* secp256k1.table */; };
@@ -189,6 +187,7 @@
 		9F1664CCB4F831312C8AF8DACA47A802 /* base32.c in Sources */ = {isa = PBXBuildFile; fileRef = FFEA0DF26EBCBD0FC07D48421A40FA4A /* base32.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A03E794FE9037A6BDD8BF593E605B4E3 /* Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0693E08B7F2B36627A46C683AEF74CD6 /* Codable.swift */; };
 		A07F80F87558E671A2C085486F51E10F /* ed25519-keccak.c in Sources */ = {isa = PBXBuildFile; fileRef = D3D28170BF9DE7DAC47FBBE6373528F1 /* ed25519-keccak.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A18ADA0FA3A64F8D32650A7FE563F941 /* lax_der_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 461E7B63201174F08C016271ABF691CE /* lax_der_parsing.c */; };
 		A300671F55DD95AE86819358B2C6DE32 /* Cryptors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3AEFDE2AEC699B73773729EBCA9C593 /* Cryptors.swift */; };
 		A48687B96077CAE20970C80BAD9FA3D8 /* ed25519-donna-basepoint-table.c in Sources */ = {isa = PBXBuildFile; fileRef = 1CC417023631A0BDD603C12CC9AFDB0A /* ed25519-donna-basepoint-table.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A5EC45B0F44D3EE716866DD327A7B4D1 /* TrezorCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 05BEBC52FB1D5809E88CA0F3B375BF34 /* TrezorCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -280,6 +279,7 @@
 		E453C8E1D4964306F4018C2AF2AE441D /* Strideable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808B382ECEC55128270EF6A2961F2C5A /* Strideable.swift */; };
 		E63A3784C3B16EBCF22AF540AC3506D4 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D25E45411B11C573D69756D45BA58D /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E780BDD3E588068FF869701FDC2D6BBE /* OFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D83DD93536DC0C5F39592A351B7BEEE /* OFB.swift */; };
+		E859C7F13B08349F7311DFDDBA8D6A5C /* secp256k1_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 442593FA590D3ABFAE11D4D482737214 /* secp256k1_ios-dummy.m */; };
 		E89D442DB58EC21FD5D7EB9D6F0EB1CD /* field_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E27300FCC785CDC7EEF8EB33FE864A1 /* field_impl.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E8F27EADB2682D9EE684C6AE32C763FB /* ed25519-donna.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B1B225324DF8B37AF5DEF327451BDD1 /* ed25519-donna.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E99E9C0D8889E1ABED1BB66EA5E26F6B /* AES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71347FB71DADE08912974B56F882F4F5 /* AES.swift */; };
@@ -292,8 +292,8 @@
 		EDBA0213CFDDB01BDE9C8A15122932DE /* main_impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 829772A5BBED91444178A942FD4A6C5C /* main_impl.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EEBE924BD06D6681AAA6003C3A6DBB33 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA42DE120C1E54627314400FBCCA978 /* MD5.swift */; };
 		EEC95E134BF6663B52A72D8B53375C00 /* PKCS7Padding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F0B5FF32C231A7DB157C7E495906322 /* PKCS7Padding.swift */; };
+		F256F35D555985666C1CCC61504C74C4 /* lax_der_privatekey_parsing.c in Sources */ = {isa = PBXBuildFile; fileRef = 923DF4BA841801B6105E8659D405E4E7 /* lax_der_privatekey_parsing.c */; };
 		F29F6DC056274AD06CE15591A9CD8C91 /* bip39.h in Headers */ = {isa = PBXBuildFile; fileRef = 785EDE740DE076F99D12E348203674EF /* bip39.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4EE8420E0C017C1226A81A04E65B0C6 /* secp256k1_ios-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 442593FA590D3ABFAE11D4D482737214 /* secp256k1_ios-dummy.m */; };
 		F553487587102C1F57470AA5151ACDF4 /* poly1305-donna.c in Sources */ = {isa = PBXBuildFile; fileRef = 10D2160673FA28F6BB6EB3EDF368F22D /* poly1305-donna.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F64D1E0E3C1EC2CE154DF5C22B1A1332 /* address.c in Sources */ = {isa = PBXBuildFile; fileRef = AFCC68FE10EFA19BA04E92A79074800C /* address.c */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F819E5E26D4348DBEF18B459774FC7A0 /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE82CFBAB8F5731C691AE30AB032652D /* SocketLogger.swift */; };
@@ -1723,7 +1723,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16983068B88C774E839F5FF2B497C852 /* Build configuration list for PBXNativeTarget "secp256k1_ios" */;
 			buildPhases = (
-				21E2E22744679862C76A37BDBBD08FA0 /* Sources */,
+				8875C54F215CB2EDA3BABB5DB5839AAC /* Sources */,
 				0908AE36AE0D0D0067DD3E8B244DF9E3 /* Frameworks */,
 				5C56046D0E2621CAD39C11C3054A4D02 /* Headers */,
 			);
@@ -1828,17 +1828,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		21E2E22744679862C76A37BDBBD08FA0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				552E94EC68AE631A1A89F6DC4D58FBA0 /* lax_der_parsing.c in Sources */,
-				966FF61422A359610A8C331B8FE9051E /* lax_der_privatekey_parsing.c in Sources */,
-				67449A8C10697B7AA0A9B3922EAA089C /* secp256k1.c in Sources */,
-				F4EE8420E0C017C1226A81A04E65B0C6 /* secp256k1_ios-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2315C61FC7596A2E6552E704F9D649FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1919,6 +1908,17 @@
 				1AB09B12DC000DF6337F07C6DFC13F98 /* sha2.c in Sources */,
 				5A0D0FA081F09A6ABF28749B2575564A /* sha3.c in Sources */,
 				B6F6CDE4C270A7C6F704FFC1E4F16F56 /* TrezorCrypto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8875C54F215CB2EDA3BABB5DB5839AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A18ADA0FA3A64F8D32650A7FE563F941 /* lax_der_parsing.c in Sources */,
+				F256F35D555985666C1CCC61504C74C4 /* lax_der_privatekey_parsing.c in Sources */,
+				751CB0051C1055892A30E80ADAA575F4 /* secp256k1.c in Sources */,
+				E859C7F13B08349F7311DFDDBA8D6A5C /* secp256k1_ios-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

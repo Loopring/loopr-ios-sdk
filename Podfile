@@ -10,8 +10,8 @@ target 'loopr-ios-sdk' do
   pod 'Geth'
   pod 'BigInt', '3.0.1'
   pod 'CryptoSwift', '0.8.3'
-  pod 'secp256k1_ios', git: 'https://github.com/shamatar/secp256k1_ios.git', inhibit_warnings: true
-  pod 'TrezorCrypto', '0.0.4', inhibit_warnings: true
+  pod 'secp256k1_ios', '0.1.3'
+  pod 'TrezorCrypto', '0.0.4'
 
   target 'loopr-ios-sdkTests' do
     inherit! :search_paths
