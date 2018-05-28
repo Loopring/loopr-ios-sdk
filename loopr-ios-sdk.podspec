@@ -58,7 +58,7 @@ Pod::Spec.new do |s|
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
   #
-
+  s.swift_version = '4.0'
   s.platform     = :ios
   s.ios.deployment_target = "11.0"
   # s.platform     = :ios, "5.0"
@@ -133,6 +133,7 @@ Pod::Spec.new do |s|
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
+  s.static_framework = true
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
