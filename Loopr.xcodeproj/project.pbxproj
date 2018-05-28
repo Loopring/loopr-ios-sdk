@@ -123,7 +123,7 @@
 		ACA1A30520BB70310028302A /* MnemonicQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1A2EB20BB70310028302A /* MnemonicQuestion.swift */; };
 		ACA1A30620BB70310028302A /* SimpleRespond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1A2EC20BB70310028302A /* SimpleRespond.swift */; };
 		ACA1A30820BB707A0028302A /* SetupWalletMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA1A30720BB707A0028302A /* SetupWalletMethod.swift */; };
-		ACB1660920BB65FC002C7F73 /* loopr_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB165FF20BB65FB002C7F73 /* loopr_ios_sdk.framework */; };
+		ACB1660920BB65FC002C7F73 /* Loopr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACB165FF20BB65FB002C7F73 /* Loopr.framework */; };
 		ACB1660E20BB65FC002C7F73 /* loopr_ios_sdkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB1660D20BB65FC002C7F73 /* loopr_ios_sdkTests.swift */; };
 		ACB1661020BB65FC002C7F73 /* loopr_ios_sdk.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB1660220BB65FB002C7F73 /* loopr_ios_sdk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E354534FDEF264E0A9BEE17E /* Pods_loopr_ios_sdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B1CEB4199D7890CEB14235 /* Pods_loopr_ios_sdk.framework */; };
@@ -260,10 +260,10 @@
 		ACA1A2EB20BB70310028302A /* MnemonicQuestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MnemonicQuestion.swift; sourceTree = "<group>"; };
 		ACA1A2EC20BB70310028302A /* SimpleRespond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleRespond.swift; sourceTree = "<group>"; };
 		ACA1A30720BB707A0028302A /* SetupWalletMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupWalletMethod.swift; sourceTree = "<group>"; };
-		ACB165FF20BB65FB002C7F73 /* loopr_ios_sdk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = loopr_ios_sdk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB165FF20BB65FB002C7F73 /* Loopr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Loopr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB1660220BB65FB002C7F73 /* loopr_ios_sdk.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = loopr_ios_sdk.h; sourceTree = "<group>"; };
 		ACB1660320BB65FB002C7F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ACB1660820BB65FC002C7F73 /* loopr-ios-sdkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "loopr-ios-sdkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACB1660820BB65FC002C7F73 /* LooprTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LooprTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACB1660D20BB65FC002C7F73 /* loopr_ios_sdkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loopr_ios_sdkTests.swift; sourceTree = "<group>"; };
 		ACB1660F20BB65FC002C7F73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B29AA19E05FB0D5CCEC9683B /* Pods-loopr-ios-sdkTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loopr-ios-sdkTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-loopr-ios-sdkTests/Pods-loopr-ios-sdkTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -282,7 +282,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACB1660920BB65FC002C7F73 /* loopr_ios_sdk.framework in Frameworks */,
+				ACB1660920BB65FC002C7F73 /* Loopr.framework in Frameworks */,
 				97D16F0AABACCA76D49D0949 /* Pods_loopr_ios_sdkTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -584,8 +584,8 @@
 		ACB1660020BB65FB002C7F73 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACB165FF20BB65FB002C7F73 /* loopr_ios_sdk.framework */,
-				ACB1660820BB65FC002C7F73 /* loopr-ios-sdkTests.xctest */,
+				ACB165FF20BB65FB002C7F73 /* Loopr.framework */,
+				ACB1660820BB65FC002C7F73 /* LooprTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -637,9 +637,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		ACB165FE20BB65FB002C7F73 /* loopr-ios-sdk */ = {
+		ACB165FE20BB65FB002C7F73 /* Loopr */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACB1661320BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "loopr-ios-sdk" */;
+			buildConfigurationList = ACB1661320BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "Loopr" */;
 			buildPhases = (
 				72833AEFB76CB08AAA259A60 /* [CP] Check Pods Manifest.lock */,
 				ACB165FA20BB65FB002C7F73 /* Sources */,
@@ -651,14 +651,14 @@
 			);
 			dependencies = (
 			);
-			name = "loopr-ios-sdk";
+			name = Loopr;
 			productName = "loopr-ios-sdk";
-			productReference = ACB165FF20BB65FB002C7F73 /* loopr_ios_sdk.framework */;
+			productReference = ACB165FF20BB65FB002C7F73 /* Loopr.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		ACB1660720BB65FC002C7F73 /* loopr-ios-sdkTests */ = {
+		ACB1660720BB65FC002C7F73 /* LooprTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ACB1661620BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "loopr-ios-sdkTests" */;
+			buildConfigurationList = ACB1661620BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "LooprTests" */;
 			buildPhases = (
 				9397EAC333032505B1986A53 /* [CP] Check Pods Manifest.lock */,
 				ACB1660420BB65FC002C7F73 /* Sources */,
@@ -671,9 +671,9 @@
 			dependencies = (
 				ACB1660B20BB65FC002C7F73 /* PBXTargetDependency */,
 			);
-			name = "loopr-ios-sdkTests";
+			name = LooprTests;
 			productName = "loopr-ios-sdkTests";
-			productReference = ACB1660820BB65FC002C7F73 /* loopr-ios-sdkTests.xctest */;
+			productReference = ACB1660820BB65FC002C7F73 /* LooprTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -697,7 +697,7 @@
 					};
 				};
 			};
-			buildConfigurationList = ACB165F920BB65FB002C7F73 /* Build configuration list for PBXProject "loopr-ios-sdk" */;
+			buildConfigurationList = ACB165F920BB65FB002C7F73 /* Build configuration list for PBXProject "Loopr" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -709,8 +709,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ACB165FE20BB65FB002C7F73 /* loopr-ios-sdk */,
-				ACB1660720BB65FC002C7F73 /* loopr-ios-sdkTests */,
+				ACB165FE20BB65FB002C7F73 /* Loopr */,
+				ACB1660720BB65FC002C7F73 /* LooprTests */,
 			);
 		};
 /* End PBXProject section */
@@ -937,7 +937,7 @@
 /* Begin PBXTargetDependency section */
 		ACB1660B20BB65FC002C7F73 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ACB165FE20BB65FB002C7F73 /* loopr-ios-sdk */;
+			target = ACB165FE20BB65FB002C7F73 /* Loopr */;
 			targetProxy = ACB1660A20BB65FC002C7F73 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1136,7 +1136,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ACB165F920BB65FB002C7F73 /* Build configuration list for PBXProject "loopr-ios-sdk" */ = {
+		ACB165F920BB65FB002C7F73 /* Build configuration list for PBXProject "Loopr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACB1661120BB65FC002C7F73 /* Debug */,
@@ -1145,7 +1145,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACB1661320BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "loopr-ios-sdk" */ = {
+		ACB1661320BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "Loopr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACB1661420BB65FC002C7F73 /* Debug */,
@@ -1154,7 +1154,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ACB1661620BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "loopr-ios-sdkTests" */ = {
+		ACB1661620BB65FC002C7F73 /* Build configuration list for PBXNativeTarget "LooprTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ACB1661720BB65FC002C7F73 /* Debug */,
